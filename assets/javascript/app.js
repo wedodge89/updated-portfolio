@@ -1,3 +1,8 @@
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $(".sidenav").sidenav();
+  });
+
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
   });

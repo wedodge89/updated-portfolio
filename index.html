@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/favicon.ico">
     <title>W. Elliott Dodge</title>
    
     <!-- jQuery -->
@@ -12,14 +13,23 @@
     <!-- Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>AOS.init();</script>
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <script src="assets/javascript/app.js"></script>
 </head>
+
 <body>
-    <nav> </nav>
-    
+    <nav>
+        <div id="nav-left">
+            <p>W. Elliott Dodge</p>
+        </div>
+        <div id="nav-right">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"><img src="assets/images/burger-button.svg"></i></a>
+        </div>
+    </nav>
     <ul id="slide-out" class="sidenav">
         <li><div class="user-view">
             <div class="background">
@@ -33,12 +43,44 @@
         <li><a href="#!" class="waves-effect">Portfolio</a></li>
         <li><a href="#!" class="waves-effect">Contact</a></li>
         <li><div class="divider"></div></li>
-        <li><a class="subheader">Social</a></li>
-        <li><a href="https://www.github.com/wedodge89" target="_blank"><i class="material-icons">GH</i>GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/elliott-dodge-545900147/"><i class="material-icons" target="_blank">LI</i>LinkedIn</a></li>
+        <li><a class="subheader">Professional Resources</a></li>
+        <li><a href="https://www.github.com/wedodge89" target="_blank"><i class="material-icons"><img src="assets/images/gh-logo.png" class="nav-logo"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/elliott-dodge-545900147/" target="_blank"><i class="material-icons"><img src="assets/images/li-logo.png" class="nav-logo"></i>LinkedIn</a></li>
+        <li><a href="https://drive.google.com/file/d/1T9yGJ3JUakZXzRGzE9_Z9QivURdcZMg3/view?usp=sharing" target="_blank"><i class="material-icons"><img src="assets/images/resume-icon.png" class="nav-logo"></i>Resume</a></li>
     </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">Navigation</i></a>
-   
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"><img src="assets/images/burger-button.svg"></i></a>
+    
+    <div id="home">
+        <h2>Home</h2>
+        <img src="assets/images/headshot.jpg" id="headshot">
+        <p>
+            My name is Elliott Dodge. I am a full-stack developer in training. While I currently work as a writer for a faith-based non-profit, I am excited to learn more about and explore the world of technology. I am eager to address real-world problems using web design and coding to create innovative solutions.
+        </p>
+        <p>
+            When I'm not working, I pass the time either playing games of all sorts (video, board, card, yard, etc.) and/or hanging out with my awesome wife and baby girl.
+        </p>
+        <p>
+            I have experience working with technology, primarily on the hardware side. For almost a decade, I have worked running live sound for various events, from groups of about 10 up to more than 100. I have also independently studied IT, with an interest in pursuing IT certifications at some point.
+        </p>
+    </div>
+    
+    <div id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="carousel">
+            <a class="carousel-item" href="https://scratch.mit.edu/projects/326735838/" target="_blank"><img src="assets/images/dino-chomp.png"></a>
+            <a class="carousel-item" href="https://wedodge89.github.io/Psychic-Game/" target="_blank"><img src="assets/images/psychic-game.jpg"></a>
+            <a class="carousel-item" href="https://wedodge89.github.io/unit-4-game/" target="_blank"><img src="assets/images/creature-collector.jpg"></a>
+            <a class="carousel-item" href="https://wedodge89.github.io/giphy-api-homework/" target="_blank"><img src="assets/images/giphy-search.gif"></a>
+            <a class="carousel-item" href="https://wedodge89.github.io/whether/" target="_blank"><img src="assets/images/whether.jpg"></a>
+            <a class="carousel-item" href="https://wedodge89.github.io/choo-choo/" target="_blank"><img src="assets/images/choo-choo.jpg"></a>
+        </div>
+    </div>
+                    
+    </div>
+    
+    <script src="assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>

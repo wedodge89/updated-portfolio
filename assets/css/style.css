@@ -20,14 +20,7 @@ h2 {
     float: left;
     font-size: 30px;
     position: absolute;
-    top: -20px;
-}
-
-#nav-right {
-    float: right;
-    position: absolute;
     top: -10px;
-    right: 5px;
 }
 
 #about-me {
@@ -48,7 +41,28 @@ h2 {
     overflow: auto;
 }
 
+#contact {
+    margin: 10px;
+    background-color: darkgray;
+    overflow: auto;
+}
+
 .contrast-font {
     background-color: gray;
     opacity: 80%;
+}
+
+#port-carousel {
+    margin-top: -200px;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.contact-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.email:hover {
+    background-color: yellow;
 }

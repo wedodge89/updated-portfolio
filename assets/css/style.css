@@ -49,5 +49,6 @@ h2 {
 }
 
 .contrast-font {
-    color: darkblue;
+    background-color: gray;
+    opacity: 80%;
 }
